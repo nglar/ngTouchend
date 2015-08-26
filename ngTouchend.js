@@ -6,7 +6,7 @@ angular.module("ngTouchend", []).directive("ngTouchend", function () {
       $element.bind('touchend', onTouchEnd);
       
       function onTouchEnd(event) {
-        var method = '$scope.' + $element.attr('ng-touchend');
+        var method = $element.attr('ng-touchend');
         $scope.$apply(method);
       };
     }
