@@ -1,6 +1,6 @@
 {
   "name": "ngtouchend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A angular module to add directive `ng-touchend`.",
   "main": "src/ngTouchend.js",
   "directories": {
