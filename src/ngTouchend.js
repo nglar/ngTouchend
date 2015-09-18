@@ -1,1 +1,15 @@
-"use strict";angular.module("ngTouchend",[]).directive("ngTouchend",function(){return{controller:function(n,t){function e(e){var u=t.attr("ng-touchend");n.$event=e,n.$apply(u)}t.bind("touchend",e)}}});
+"use strict";
+
+angular.module("ngTouchend", []).directive("ngTouchend", function () {
+  return {
+    controller: function ($scope, $element, $attrs) {
+      $element.bind('touchend', onTouchEnd);
+      
+      function onTouchEnd(event) {
+        var method = $element.attr('ng-touchend');
+        $scope.$event = event;
+        $scope.$apply(method);
+      };
+    }
+  };
+});
