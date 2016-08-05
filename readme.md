@@ -20,6 +20,9 @@ A angular module to add directives for touch devices.
 
 * [Info](#info)
 * [Installing/Loading](#installingloading)
+    * [Install using Bower](#install-using-bower)
+    * [Install using NPM](#install-using-npm)
+    * [Loading](#loading)
 * [Usage](#usage)
 * [Links](#links)
 * [Tests](#tests)
@@ -37,14 +40,27 @@ Email: [mark@webman.io](mailto:mark@webman.io)
 
 ## Installing/Loading
 
+### Install using Bower
+
 Install using bower:
 ```
 bower install ngtouchend --save
 ```
 
+### Install using NPM
+
+Install using npm:
+```
+npm install ngtouchend --save
+```
+
+[Go to NPM page for this package.](https://www.npmjs.com/package/ngtouchend)
+
+### Loading
+
 Load the file to you HTML header:
 ```
-<script type="text/javascript" src="path/to/bower_components/ngtouchend/build/ngTouchend.min.js"></script>
+<script type="text/javascript" src="path/to/components/ngtouchend/build/ngTouchend.min.js"></script>
 ```
 
 ## Usage
